@@ -1,0 +1,11 @@
+:root{
+    --abyss: #091A2B;
+}
+body{
+    background-color: var(--abyss);
+    color: whitesmoke;
+}
+
+h1 {
+    color: turquoise;
+}
