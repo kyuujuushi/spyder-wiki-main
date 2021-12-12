@@ -6,6 +6,12 @@ body{
     color: whitesmoke;
 }
 
+div.test > *{
+    background-color: whitesmoke;
+    color: var(--abyss);
+    text-align: center;
+}
+
 h1 {
     color: turquoise;
 }
