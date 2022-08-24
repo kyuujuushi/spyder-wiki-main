@@ -19,6 +19,10 @@ div.test > *{
     text-align: center;
 }
 
+#title {
+    border-bottom: turquoise;
+}
+
 h1 {
     color: turquoise;
     font-family: 'Linux Libertine', serif;
@@ -49,12 +53,30 @@ table{
     clear: right;
     float: right;
     margin: 1em;
+    padding: 0.2em;
+    width: 22em;
+}
+
+th, td {
+    text-align: left;
+}
+
+tr.section_titles > th {
+    background-color: turquoise;
+    color: black;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
 }
 
 article {
     margin-top: -1px;
     border: 1px solid turquoise;
     margin-left: 11em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 nav {
